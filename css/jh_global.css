@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./jh_reset.css";
+@import "./jh_variable.css"; /* 변수 설정 */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import "./jh_navigation-bar.css";
+@import "./jh_mypage.css";
+@import "./jh_media-query.css";
+* {
+    box-sizing: border-box; /* 모든 요소를 화면 안에 포함시킴킴 */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-purple);
+    color:white;
+}
+
+input {
+    border:none;
+    outline: none;
+    appearance: none;
+}
+
+.material-symbols-outlined.md-18{ font-size:18px;}
+.material-symbols-outlined.md-24{ font-size:24px;}
+.material-symbols-outlined.md-36{ font-size:36px;}
+.material-symbols-outlined.md-48{ font-size:48px;}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
